@@ -355,3 +355,105 @@ footer {
         margin-left: 40px;
     }
 }
+
+@media screen and (max-width: 550px) {
+
+    .CV-banner {
+        height:927px;
+        width:550px;
+    }  
+
+    .first-line {
+        grid-template-columns: 220px 330px;
+    }
+
+    .about-me {
+        border-left: none;
+    }
+
+    .about {
+        margin-left: 15px;
+    }
+    
+    .name {
+        margin-left: 15px;
+    }
+    
+    .developer {
+        margin-left: 15px;
+    }
+
+    .second-line {
+        width: 550px;
+    }
+
+    .third-line {
+        grid-template-columns: 220px 330px;
+    }
+      
+    .Code-example {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 10px;
+        
+    }
+    
+    .Code {
+        width: 295px;
+        height: 240px;
+        margin-left: 15px;
+        font-size: 9px;
+    }
+    
+    .line {
+        border-left:none;
+    }
+    
+    .Myskills {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills {
+        font-size: 22px;
+        margin-top: 98px;
+        margin-left: 31px;
+        margin-right: 37px;
+    }
+
+    .education-level {
+        grid-template-columns: 160px 120px;
+        border-left:none;
+        
+    }
+
+    .education {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .educations {
+        margin-right: 12px ;
+        font-size: 22px;
+    }
+    
+    .courses {
+        margin-right: 24px ;
+        font-size: 22px;
+    }
+    
+    .language {
+        border-left: none;
+        margin-left: -10px;
+    }
+    
+    .lang {
+       margin-right: -10px;
+       font-size: 22px;
+    }
+    
+    .otstup {
+        margin-left: 40px;
+    }
+}
