@@ -245,3 +245,113 @@ footer {
     font-weight: 700;
     margin-top: -20px;
 }
+
+@media screen and (max-width: 675px) {
+
+    .CV-banner {
+        height:993px;
+        width:675px;
+    }  
+
+    .first-line {
+        grid-template-columns: 260px 414px;
+    }
+
+    .about-me {
+        border-left: black 4px solid;
+    }
+
+    .about {
+        margin-left: 25px;
+    }
+    
+    .name {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    
+    .developer {
+        margin-left: 25px;
+    }
+
+    .second-line {
+        width: 675px;
+    }
+
+    .third-line {
+        grid-template-columns: 260px 414px;
+    }
+      
+    .Code-example {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 10px;
+        
+    }
+    
+    .Code {
+        width: 365px;
+        height: 310px;
+        margin-left: 25px;
+        font-size: 11.2px;
+    }
+    
+    .line {
+        border-left:rgb(168, 167, 167) 4px solid;
+    }
+    
+    .Myskills {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education-level {
+        grid-template-columns: 214px 200px;
+        border-left:rgb(168, 167, 167) 4px solid;
+        
+    }
+    
+    .educations {
+        margin-left: 8px ;
+        margin-right: 28px ;
+    }
+    
+    .courses {
+        margin-left: 18px ;
+        margin-right: 42px ;
+    }
+    
+    .MGKE {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    a {
+        font-size: 15px;
+    }
+    
+    .cs50 {
+        margin-left: 24px;
+    }
+    
+    .htmlacademy {
+        margin-left: 16px;
+        
+    }
+    
+    .language {
+        border-left: rgb(168, 167, 167) 4px solid;
+        margin-left: 10px;
+    }
+    
+    .lang {
+       margin-left: 25px;
+       margin-right: 35px;
+       
+    }
+    
+    .otstup {
+        margin-left: 40px;
+    }
+}
