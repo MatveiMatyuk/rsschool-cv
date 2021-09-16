@@ -45,9 +45,9 @@
                 <p class="Code-example">Code example</p>
                 <pre>
 <code> function markSpot(n) { <br>
-    if (typeof n!=='number'||n%2===0||n <&lt1) return '?' <br>
+    if (typeof n!=='number'||n%2===0||n <&lt 1) return '?' <br>
     let arr = Array.from({length:n},v=>Array.from({<br> length:n*n},v=>' ')) <br>
-    for (let i=0,j=0,k=n-1;i<&ltn;i++,j+=2,k--){ <br>
+    for (let i=0,j=0,k=n-1;i<&lt n;i++,j+=2,k--){ <br>
         arr[i][j]='X' <br>
         arr[k][j]='X' <br>
     } <br>
