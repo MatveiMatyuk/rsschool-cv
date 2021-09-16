@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="CV-banner">
+        <div class="first-line">
+            <img class="myPhoto" src="assets/myPhoto.png" alt="myPhoto">
+            <div class="about-me">
+                <h1 class="name">Matvei<br>Matyuk</h1>
+                <p class="developer">Front-end web developer (Beginner)</p>
+                <p class="about">I am a 21-year-old guy who managed to try myself in different types of activities and I can say that communication skills and learning are better and my qualities</p>
+            </div>
+        </div>
+        <div class="second-line">
+            <div class="">
+                <p class="com">communication   /   advertising  /   learning</p>
+            </div>
+        </div>
+        <div class="third-line">
+            <table>
+                <tr>
+                  <td>Minsk</td>
+                </tr>
+                <tr>
+                  <td>+375447430683</td>
+                </tr>
+                <tr>
+                    <td>matvei.matyuk@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Garry#3109</td>
+                </tr>
+            </table>
+            <div class="line">
+            <div class="Code">
+                <p class="Code-example">Code example</p>
+                <pre>
+<code> function markSpot(n) { <br>
+    if (typeof n!=='number'||n%2===0||n < 1) return '?' <br>
+    let arr = Array.from({length:n},v=>Array.from({<br> length:n*n},v=>' ')) <br>
+    for (let i=0,j=0,k=n-1;i< n;i++,j+=2,k--){ <br>
+        arr[i][j]='X' <br>
+        arr[k][j]='X' <br>
+    } <br>
+    return arr.map(v=>v.join``.replace(/ *$/,'\n')).join`` <br>
+    }
+                    </code>
+                </pre>
+            </div>
+            </div>
+            <div class="Myskills">
+                <h2 class="skills">Skills</h2>
+                <p class="html">HTML</p>
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html">CSS/SASS</p>
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/line.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html">Java Script</p>
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/line.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html">GIT</p>
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Untitled.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+            </div>
+           <div class="education-level">
+                <div class="education">
+                    <h2 class="educations">Education</h2>
+                    <p class="MGKE">Minsk State College of Electronics</p>
+                    <h2 class="courses">Courses</h2>
+                    <a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA" class="cs50">CS50 lectures</a>
+                    <a href="https://htmlacademy.ru/study" class="htmlacademy">HTML Academy</a>
+                    <p></p>
+                </div>
+                <div class="language">
+                    <h2 class="lang">Language</h2>
+                    <p class="english otstup">English (B1)</p>
+                    <p class="russian otstup">Russian (C2)</p>
+                    <p class="belarusian otstup">Belarusian (B2)</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <a href="https://t.me/MatthewMasetor" class="telegram"><img class="telegram01" src="assets/telegram.png" alt=""></a>
+            <a href="https://app.rs.school/" class="rs"><img class="rs01" src="assets/logo_rs_text.svg" alt=""></a>
+            <a href="https://github.com/MatveiMatyuk" class="Git"><img class="Git01" src="assets/Git.png" alt=""></a>
+        </footer>
+        <p class="Myname">Matvei Matyuk 2021</p>
+    </div>
+</body>
+</html>

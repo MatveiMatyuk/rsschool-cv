@@ -1,0 +1,247 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.CV-banner {
+    
+    margin: auto;
+    margin-top: -8px;
+    height:1034px;
+    width:794px;
+    background: rgb(197, 196, 196) ;
+
+}
+
+.first-line {
+    display: grid;
+    grid-template-columns: 300px 494px;
+    padding-top: 31px;
+}
+
+.myPhoto {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+}
+
+.about-me {
+    border-left: black 6px solid;
+    height: 200px;
+}
+
+.about {
+    text-align: justify;
+    margin-right: 20px;
+    font-style: oblique;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.name {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.developer {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.second-line {
+    width: 794px;
+    height: 50px;
+    background-color: gray;
+    margin-top: 31px;
+}
+
+.com {
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    white-space: pre;
+    padding-top: 12px;
+    text-transform: uppercase;
+}
+
+.third-line {
+    display: grid;
+    grid-template-columns: 300px 494px;
+    padding-top: 31px;
+}
+
+table {
+    border: black 3px solid;
+    width: 200px;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    margin-top: 0;
+    
+}
+
+td {
+    border: black 3px solid;
+    height: 37px;
+
+}
+
+.Code-example {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+
+.Code {
+    width: 428px;
+    height: 350px;
+    background-color:rgb(168, 167, 167);
+    margin-left: 46px;
+    border-radius: 2%;
+    margin-top: -16px;
+    
+}
+
+.line {
+    border-left:rgb(168, 167, 167) 6px solid;
+}
+
+code {
+    padding-left: -10px;
+}
+
+.Myskills {
+    margin-top: -105px;
+    margin-left: 79.563px;
+    margin-right: 79.563px;
+}
+
+.lines {
+    width: 25px;
+    height: 5px;
+    margin-top: 10px;
+}
+
+.html {
+    margin-bottom: 0;
+}
+
+.skills {
+    text-transform: uppercase;
+    margin-left: 31px;
+    border-bottom: black 4px solid;
+    margin-right: 31px;
+}
+
+.education-level {
+    display: grid;
+    grid-template-columns: 247px 240px;
+    border-left:rgb(168, 167, 167) 6px solid;
+    
+}
+
+.educations {
+    text-transform: uppercase;
+    border-bottom: black 4px solid;
+    margin-left: 30px ;
+    margin-right: 40px ;
+}
+
+.education {
+    margin-left: 46px;
+}
+
+.courses {
+    text-transform: uppercase;
+   border-bottom: black 4px solid;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.MGKE {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+.cs50 {
+    margin-left: 38px;
+}
+
+.htmlacademy {
+    margin-left: 30px;
+    
+}
+
+.language {
+    border-left: rgb(168, 167, 167) 6px solid;
+    margin-top:15px;
+    margin-left: 25px;
+}
+
+.lang {
+    text-transform: uppercase;
+   border-bottom: black 4px solid;
+   margin-left: 40px;
+   margin-right: 45px;
+   
+}
+
+.otstup {
+    margin-left: 40px;
+}
+
+footer {
+    background-color: gray;
+    height: 70px;
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.rs01 {
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.Git01 {
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+
+.telegram01 {
+    width: 40px;
+    height: 40px;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.Myname {
+    text-align: center;
+    font-weight: 700;
+    margin-top: -20px;
+}
