@@ -457,3 +457,108 @@ footer {
         margin-left: 40px;
     }
 }
+
+@media screen and (max-width: 420px) {
+
+    .CV-banner {
+        height:1668px;
+        width:250px;
+    } 
+
+    .first-line {
+        grid-template-columns: 250px;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .developer {
+        text-align: center;
+    }
+
+    .about {
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+    }
+
+    .second-line {
+        width: 250px;
+    }
+
+    .com {
+        font-size: 10px;
+        margin-top: 65px;
+        padding-top: 16px;
+    }
+
+    .third-line {
+        grid-template-columns: 250px;
+        padding-top: 31px;
+    }
+
+    .Code {
+        width: 230px;
+        height: 183px;
+        margin: auto;
+        margin-top: 31px;
+        font-size: 6px;
+    }
+    
+    .Myskills {
+        margin-top: -69px;
+        margin-left: 54.5px;
+        margin-right: 54.5px;
+    }
+    
+    .skills {
+        margin-right: 38px;
+    }
+
+    .education-level {
+        grid-template-columns: 250px;
+    }
+
+    .education {
+        margin-left: 0;
+    }
+
+    .educations {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .MGKE {
+        margin-left: 10px ;
+    }
+
+    .courses {
+        margin-left: 75.5px;
+        margin-right: 75.5px;
+    }
+
+    .cs50 {
+        margin-left: 15px;
+    }
+
+    .lang {    
+        margin-left: 67px;
+        margin-right: 68px;
+    }
+
+    .language {
+        margin-left: 0;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .otstup {
+        margin-left: 0;
+    }
+
+    footer {
+        height: 70px;
+        margin-top: 0;
+        padding-top: 8px;
+    }
+}
