@@ -458,15 +458,15 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
 
     .CV-banner {
-        height:1668px;
-        width:250px;
+        height:1662px;
+        width:375px;
     } 
 
     .first-line {
-        grid-template-columns: 250px;
+        grid-template-columns: 375px;
     }
 
     .name {
@@ -483,44 +483,44 @@ footer {
     }
 
     .second-line {
-        width: 250px;
+        width: 375px;
     }
 
     .com {
-        font-size: 10px;
-        margin-top: 65px;
+        font-size: 14px;
         padding-top: 16px;
     }
 
     .third-line {
-        grid-template-columns: 250px;
+        grid-template-columns: 375px;
         padding-top: 31px;
     }
 
+    table {
+        width: 280px;
+    }
+
     .Code {
-        width: 230px;
-        height: 183px;
+        width: 295px;
+        height: 222px;
         margin: auto;
         margin-top: 31px;
-        font-size: 6px;
+        font-size: 9px;
     }
     
     .Myskills {
         margin-top: -69px;
-        margin-left: 54.5px;
-        margin-right: 54.5px;
-    }
-    
-    .skills {
-        margin-right: 38px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .education-level {
-        grid-template-columns: 250px;
+        grid-template-columns: 375px;
     }
 
     .education {
-        margin-left: 0;
+        margin: auto;
+
     }
 
     .educations {
@@ -542,7 +542,7 @@ footer {
     }
 
     .lang {    
-        margin-left: 67px;
+        margin-left: 68px;
         margin-right: 68px;
     }
 
