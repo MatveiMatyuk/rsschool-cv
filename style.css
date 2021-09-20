@@ -3,7 +3,10 @@ body {
     height: 100vh;
     background-color: lightgray ;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+
+ul li{list-style: none;}
 
 .CV-banner {
     
@@ -12,7 +15,6 @@ body {
     height:1034px;
     width:794px;
     background: rgb(197, 196, 196) ;
-
 }
 
 .first-line {
@@ -25,7 +27,6 @@ body {
     width: 200px;
     height: 200px;
     margin: auto;
-    
 }
 
 .about-me {
@@ -117,6 +118,13 @@ td {
     border-left:rgb(168, 167, 167) 6px solid;
 }
 
+.hljs {
+    display: block;
+    padding: .5em;
+    overflow-x:hidden;
+    background-color:rgb(168, 167, 167);
+}
+
 code {
     padding-left: -10px;
 }
@@ -133,7 +141,7 @@ code {
     margin-top: 10px;
 }
 
-.html {
+.html01 {
     margin-bottom: 0;
 }
 
@@ -244,4 +252,385 @@ footer {
     text-align: center;
     font-weight: 700;
     margin-top: -20px;
+}
+
+.burger {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.header-active {
+    margin-top: 20px;
+    padding: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #E5EBF2;
+    transition: all .3s ease-in-out;
+}
+
+.nav_header-burger {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 25px;
+    left: 50px;
+    transition: all .3s ease-in-out;
+}
+
+.nav_list--item-burger {
+    margin-top: -5px;
+    cursor: pointer;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(51 47 47 / 43%);
+    transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 675px) {
+
+    .CV-banner {
+        height:993px;
+        width:675px;
+    }  
+
+    .first-line {
+        grid-template-columns: 260px 414px;
+    }
+
+    .about-me {
+        border-left: black 4px solid;
+    }
+
+    .about {
+        margin-left: 25px;
+    }
+    
+    .name {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    
+    .developer {
+        margin-left: 25px;
+    }
+
+    .second-line {
+        width: 675px;
+    }
+
+    .third-line {
+        grid-template-columns: 260px 414px;
+    }
+      
+    .Code-example {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 10px;
+        
+    }
+    
+    .Code {
+        width: 365px;
+        height: 310px;
+        margin-left: 25px;
+        font-size: 11.2px;
+    }
+    
+    .line {
+        border-left:rgb(168, 167, 167) 4px solid;
+    }
+    
+    .Myskills {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education-level {
+        grid-template-columns: 214px 200px;
+        border-left:rgb(168, 167, 167) 4px solid;
+        
+    }
+    
+    .educations {
+        margin-left: 8px ;
+        margin-right: 28px ;
+    }
+    
+    .courses {
+        margin-left: 18px ;
+        margin-right: 42px ;
+    }
+    
+    .MGKE {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    
+    a {
+        font-size: 15px;
+    }
+    
+    .cs50 {
+        margin-left: 24px;
+    }
+    
+    .htmlacademy {
+        margin-left: 16px;
+        
+    }
+    
+    .language {
+        border-left: rgb(168, 167, 167) 4px solid;
+        margin-left: 10px;
+    }
+    
+    .lang {
+       margin-left: 25px;
+       margin-right: 35px;
+       
+    }
+    
+    .otstup {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .CV-banner {
+        height:927px;
+        width:550px;
+    }  
+
+    .first-line {
+        grid-template-columns: 220px 330px;
+    }
+
+    .about-me {
+        border-left: none;
+    }
+
+    .about {
+        margin-left: 15px;
+    }
+    
+    .name {
+        margin-left: 15px;
+    }
+    
+    .developer {
+        margin-left: 15px;
+    }
+
+    .second-line {
+        width: 550px;
+    }
+
+    .third-line {
+        grid-template-columns: 220px 330px;
+    }
+      
+    .Code-example {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 10px;
+        
+    }
+    
+    .Code {
+        width: 295px;
+        height: 240px;
+        margin-left: 15px;
+        font-size: 9px;
+    }
+    
+    .line {
+        border-left:none;
+    }
+    
+    .Myskills {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skills {
+        font-size: 22px;
+        margin-top: 98px;
+        margin-left: 31px;
+        margin-right: 37px;
+    }
+
+    .education-level {
+        grid-template-columns: 160px 120px;
+        border-left:none;
+        
+    }
+
+    .education {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .educations {
+        margin-right: 12px ;
+        font-size: 22px;
+    }
+    
+    .courses {
+        margin-right: 24px ;
+        font-size: 22px;
+    }
+    
+    .language {
+        border-left: none;
+        margin-left: -10px;
+    }
+    
+    .lang {
+       margin-right: -10px;
+       font-size: 22px;
+    }
+    
+    .otstup {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+.nav_header {
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.linking {
+    font-size: 13px;
+    margin-left: -88px;
+}
+
+.burger {
+    margin-top: 8px;
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url(assets/burger_line_list_menu_nav_navigation_option_icon_123231.svg) no-repeat center;
+    background-size: contain;
+    transition: all .3s ease-in-out;
+    position: absolute;
+}
+.burger_active {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url('assets/cancel_close_delete_exit_logout_remove_x_icon_123217.svg') no-repeat center;
+    background-size: contain;
+    transition: all .3s ease-in-out;
+}
+
+    .CV-banner {
+        height:1662px;
+        width:375px;
+    } 
+
+    .first-line {
+        grid-template-columns: 375px;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .developer {
+        text-align: center;
+    }
+
+    .about {
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+    }
+
+    .second-line {
+        width: 375px;
+    }
+
+    .com {
+        font-size: 14px;
+        padding-top: 16px;
+    }
+
+    .third-line {
+        grid-template-columns: 375px;
+        padding-top: 31px;
+    }
+
+    table {
+        width: 280px;
+    }
+
+    .Code {
+        width: 295px;
+        height: 222px;
+        margin: auto;
+        margin-top: 31px;
+        font-size: 9px;
+    }
+    
+    .Myskills {
+        margin-top: -69px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .education-level {
+        grid-template-columns: 375px;
+    }
+
+    .education {
+        margin: auto;
+
+    }
+
+    .educations {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .MGKE {
+        margin-left: 10px ;
+    }
+
+    .courses {
+        margin-left: 75.5px;
+        margin-right: 75.5px;
+    }
+
+    .cs50 {
+        margin-left: 15px;
+    }
+
+    .lang {    
+        margin-left: 124px;
+        margin-right: 124px;
+    }
+
+    .language {
+        margin-left: 0;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .otstup {
+        margin-left: 0;
+    }
+
+    footer {
+        height: 70px;
+        margin-top: 0;
+        padding-top: 8px;
+    }
 }
