@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    
     <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="CV-banner">
+    <header class="CV-banner">
+        <div class="burger"></div>
+            <nav class="nav_header-burger">
+                <ul class="nav_list-burger">
+                    <li class="nav_list--item-burger"><a class="linking" href="#top">About Me</a></li>
+                    <li class="nav_list--item-burger"><a class="linking" href="#code">Code example</a></li>
+                    <li class="nav_list--item-burger"><a class="linking" href="#skills">Skills</a></li>
+                    <li class="nav_list--item-burger"><a class="linking" href="#footer">Footer</a></li>
+                </ul>
+            </nav><script src="index.js"></script>
         <div class="first-line">
             <img class="myPhoto" src="assets/myPhoto.png" alt="myPhoto">
-            <div class="about-me">
+            <div class="about-me" id="top">
                 <h1 class="name">Matvei<br>Matyuk</h1>
                 <p class="developer">Front-end web developer (Beginner)</p>
                 <p class="about">I am a 21-year-old guy who managed to try myself in different types of activities and I can say that communication skills and learning are better and my qualities</p>
@@ -41,10 +55,10 @@
                 </tr>
             </table>
             <div class="line">
-            <div class="Code">
+            <div class="Code" id="code">
                 <p class="Code-example">Code example</p>
-                <pre>
-<code> function markSpot(n) { <br>
+                
+<pre><code class=""> function markSpot(n) { <br>
     if (typeof n!=='number'||n%2===0||n&lt;1) return '?' <br>
     let arr = Array.from({length:n},v=>Array.from({<br> length:n*n},v=>' ')) <br>
     for (let i=0,j=0,k=n-1;i&lt;n;i++,j+=2,k--){ <br>
@@ -53,36 +67,36 @@
     } <br>
     return arr.map(v=>v.join``.replace(/ *$/,'\n')).join`` <br>
     }
-                    </code>
-                </pre>
+                    </code></pre>
+                
             </div>
             </div>
             <div class="Myskills">
-                <h2 class="skills">Skills</h2>
-                <p class="html">HTML</p>
+                <h2 class="skills" id="skills">Skills</h2>
+                <p class="html01">HTML</p>
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <p class="html">CSS/SASS</p>
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html01">CSS/SASS</p>
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/line.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <p class="html">Java Script</p>
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html01">Java Script</p>
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/line.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <p class="html">GIT</p>
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <p class="html01">GIT</p>
                 <img class="lines" src="assets/Untitled.png" alt="">
                 <img class="lines" src="assets/Untitled.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
-                <img class="lines" src="assets/Rectangle1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
+                <img class="lines" src="assets/Rectangle 1.png" alt="">
             </div>
            <div class="education-level">
                 <div class="education">
@@ -101,12 +115,13 @@
                 </div>
             </div>
         </div>
-        <footer>
+        <footer id="footer">
             <a href="https://t.me/MatthewMasetor" class="telegram"><img class="telegram01" src="assets/telegram.png" alt=""></a>
             <a href="https://app.rs.school/" class="rs"><img class="rs01" src="assets/logo_rs_text.svg" alt=""></a>
             <a href="https://github.com/MatveiMatyuk" class="Git"><img class="Git01" src="assets/Git.png" alt=""></a>
         </footer>
         <p class="Myname">Matvei Matyuk 2021</p>
-    </div>
+        
+    </header>
 </body>
 </html>
